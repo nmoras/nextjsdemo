@@ -8,13 +8,11 @@ import Link from 'next/link'
 export default function Home() {
   return (
     <div>
-      <Navbar/>
       <h1>homepage</h1>
       <Link href="/demo">
         <p>See demo list</p>
       
       </Link>
-      <Footer/>
     </div>
   )
 }
