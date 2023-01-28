@@ -8,7 +8,7 @@ export const getStaticProps = async () => {
         props: { demo : data }
     }
 }
-
+//pre-render this page at build time using the props returned by getStaticProps
 const Demo = ({ demo }) => {
     console.log(demo)
 
